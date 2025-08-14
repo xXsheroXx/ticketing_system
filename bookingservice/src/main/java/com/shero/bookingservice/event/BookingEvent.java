@@ -1,4 +1,4 @@
-package com.shero.bookingservice.response;
+package com.shero.bookingservice.event;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
@@ -11,7 +11,7 @@ import java.math.BigDecimal;
 @NoArgsConstructor
 @AllArgsConstructor
 @Builder
-public class BookingResponse {
+public class BookingEvent {
     private Long userId;
     private Long eventId;
     private Long ticketCount;
